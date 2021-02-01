@@ -1,0 +1,18 @@
+.nav {
+  background-color: darkcyan;
+  padding: 30px;
+}
+
+li {
+  display: inline;
+  padding: 0 20px;
+  list-style: none;
+  font-size: 22px;
+  color: aqua;
+  cursor: pointer;
+  font-family: AR CENA;
+}
+
+li:hover {
+  color: black;
+}
