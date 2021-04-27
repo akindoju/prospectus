@@ -4,11 +4,13 @@ import './Header.css';
 const Header = () => {
   return (
     <div>
-      <header class="header">
-        <div class="header__text-box">
-          <h1 class="heading-primary">
-            <span class="heading-primary--main">Benson Idahosa University</span>
-            <span class="heading-primary--sub">
+      <header className="header">
+        <div className="header__text-box">
+          <h1 className="heading-primary">
+            <span className="heading-primary--main">
+              Benson Idahosa University
+            </span>
+            <span className="heading-primary--sub">
               Computer Science Prospectus
             </span>
           </h1>

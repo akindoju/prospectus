@@ -1,0 +1,14 @@
+.section-about {
+  background-color: #f7f7f7;
+  margin-top: -20vh;
+  padding: 15rem 0;
+}
+
+.paragraph {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 10%;
+}
+.paragraph:not(:last-child) {
+  margin-bottom: 3rem;
+}
