@@ -1,16 +1,19 @@
 import React from 'react';
-import './header.css';
+import './Header.css';
 
 const Header = () => {
   return (
     <div>
-      <div className="nav">
-        <ul className="listContainer">
-          <li>Home</li>
-          <li>Courses</li>
-          <li>Contact Info</li>
-        </ul>
-      </div>
+      <header class="header">
+        <div class="header__text-box">
+          <h1 class="heading-primary">
+            <span class="heading-primary--main">Benson Idahosa University</span>
+            <span class="heading-primary--sub">
+              Computer Science Prospectus
+            </span>
+          </h1>
+        </div>
+      </header>
     </div>
   );
 };
