@@ -1,5 +1,5 @@
 .section-features {
-  padding: 20rem 0 0 0;
+  padding: 20rem 0 10rem 0;
   background-image: linear-gradient(
       to top left,
       rgba(111, 184, 213, 0.8),
@@ -40,13 +40,10 @@
   width: calc((100% - (3 * 6rem)) / 4);
 }
 
-.btn,
-.btn:link,
-.btn:visited {
+.btn {
   text-decoration: none;
   text-transform: uppercase;
   padding: 1.5rem 4rem;
-  display: inline-block;
   border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
@@ -98,7 +95,7 @@
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
-  height: 52rem;
+  height: 40rem;
   position: relative;
 }
 
@@ -161,20 +158,7 @@
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
-.card__heading--span--1 {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(255, 185, 0, 0.85),
-    rgba(255, 119, 48, 0.85)
-  );
-}
-.card__heading--span--2 {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(126, 213, 111, 0.85),
-    rgba(40, 180, 133, 0.85)
-  );
-}
+
 .card__heading--span {
   background-image: linear-gradient(
     to right bottom,
@@ -182,22 +166,27 @@
     rgba(86, 67, 250, 0.85)
   );
 }
+
 .card__details {
   padding: 3rem;
 }
+
 .card__details ul {
   list-style: none;
   width: 80%;
   margin: 0 auto;
 }
+
 .card__details ul li {
   text-align: center;
   font-size: 1.5rem;
   padding: 1rem;
 }
+
 .card__details ul li:not(:last-child) {
   border-bottom: 1px solid #eee;
 }
+
 .card__cta {
   position: absolute;
   top: 50%;
@@ -205,16 +194,4 @@
   transform: translate(-50%, -50%);
   width: 90%;
   text-align: center;
-}
-.card__price-box {
-  margin-bottom: 8rem;
-  color: #fff;
-  text-transform: uppercase;
-}
-.card__price-only {
-  font-size: 1.4rem;
-}
-.card__price-value {
-  font-size: 6rem;
-  font-weight: 100;
 }
