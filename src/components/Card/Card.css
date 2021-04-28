@@ -50,9 +50,8 @@
   transform: translateY(0);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 }
+
 .card {
-  perspective: 150rem;
-  -moz-perspective: 150rem;
   height: 40rem;
   position: relative;
 }
@@ -63,7 +62,7 @@
   left: 0;
   width: 100%;
   height: 40rem;
-  transition: all 0.8s ease;
+  transition: all 0.4s;
   backface-visibility: hidden;
   border-radius: 4px;
   overflow: hidden;
@@ -74,20 +73,13 @@
   background-color: #fff;
 }
 
-.card__side--back {
-  transform: rotateY(180deg);
-}
-
 .card__picture {
   background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
 }
 
 .card:hover .card__side--front {
-  transform: rotateY(-180deg);
-}
-
-.card:hover .card__side--back {
-  transform: rotateY(0);
+  cursor: pointer;
+  transform: scale(1.03) translateY(-1.5rem);
 }
 
 .card__picture {
@@ -137,7 +129,7 @@
 
 .card__details ul li {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   padding: 1rem;
 }
 
