@@ -7,7 +7,7 @@ const About = () => {
       <p className="paragraph">
         This webpage was created simply to aid students, be it new or existing,
         to have a rundown of all courses, first year to final year, and provide
-        them with with details about each course.
+        them with the details about each course.
       </p>
 
       <p class="paragraph">
