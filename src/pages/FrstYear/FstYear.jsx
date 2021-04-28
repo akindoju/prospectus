@@ -1,8 +1,9 @@
 import React from 'react';
 import FrstSem from '../../components/Courses/FrstSem';
 import '../../components/Courses/Courses.css';
-import { firstYear } from '../../coursesInformation';
-import { secondYear } from '../../coursesInformation';
+import { firstYearOne } from '../../coursesInformation';
+import { firstYearTwo } from '../../coursesInformation';
+import ScndSem from '../../components/Courses/ScndSem';
 
 const FrstYear = () => {
   return (
@@ -11,13 +12,11 @@ const FrstYear = () => {
 
       {/* first semester */}
       <h2 className="semesterHeader">First Semester</h2>
-      <FrstSem firstYear={firstYear} />
+      <FrstSem firstYearOne={firstYearOne} />
 
       {/* second semester */}
-      {/* <div>
-        <h1>Second Semester</h1>
-        <Courses secondYear={secondYear} />
-      </div> */}
+      <h2 className="semesterHeader">Second Semester</h2>
+      <ScndSem firstYearTwo={firstYearTwo} />
     </div>
   );
 };

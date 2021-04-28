@@ -46,3 +46,13 @@
   font-size: 18px;
   width: 100%;
 }
+
+.courseCode {
+  position: absolute;
+  left: 20px;
+}
+
+.courseCredit {
+  position: absolute;
+  right: 20px;
+}
