@@ -73,16 +73,13 @@
   background-color: #fff;
 }
 
-.card__picture {
-  background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
-}
-
 .card:hover .card__side--front {
   cursor: pointer;
   transform: scale(1.03) translateY(-1.5rem);
 }
 
 .card__picture {
+  background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
   background-size: cover;
   height: 23rem;
   background-blend-mode: screen;

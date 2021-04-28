@@ -22,3 +22,39 @@ body {
   line-height: 1.7;
   color: #777;
 }
+
+.levelContainer {
+  background-color: #f7f7f7;
+  padding: 5rem;
+}
+
+.levelHeader {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 45px;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(41, 152, 255, 0.85),
+    rgba(86, 67, 250, 0.85)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+.semesterHeader {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 35px;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(41, 152, 255, 0.85),
+    rgba(86, 67, 250, 0.85)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  margin-top: 50px;
+}

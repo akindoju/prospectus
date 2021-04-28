@@ -19,11 +19,9 @@ const Card = () => {
               }}
             >
               <div className="card__side card__side--front">
-                <div className="card__picture card__picture">&nbsp;</div>
+                <div className="card__picture">&nbsp;</div>
                 <h4 className="card__heading">
-                  <span className="card__heading--span card__heading--span">
-                    {level.year}
-                  </span>
+                  <span className="card__heading--span">{level.year}</span>
                 </h4>
                 <div className="card__details">
                   <ul>

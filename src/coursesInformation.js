@@ -1,0 +1,15 @@
+export const firstYear = [
+  'Introduction to Computing  I',
+  'Introduction to Computer Practical',
+  'Algebra and Trigonometry',
+  'Statistics for Physical Sciences and Engineering',
+  'General Physics',
+  '	General Physics Laboratory I',
+  'General Chemistry I (Physical and Inorganic)',
+  'Practical Chemistry I',
+  '	Communication in English I',
+  'Logic Philosophy and Human Existence',
+  'Nigerian People and Culture',
+  'Rudiments of Christian Life',
+  'Communication in French I',
+];
