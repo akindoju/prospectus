@@ -328,3 +328,166 @@ export const dirEntrTwoScnd = [
     code: 'FRN121',
   },
 ];
+
+export const thirdYearFrst = [
+  {
+    title: 'Programming in Java',
+    credit: '2',
+    code: 'CSC311',
+  },
+  {
+    title: 'Compiler Construction',
+    credit: '3',
+    code: 'CSC312',
+  },
+  {
+    title: 'Computer Architecture and Organization',
+    credit: '3',
+    code: 'CSC313',
+  },
+  {
+    title: '	Network and Graph Theory',
+    credit: '3',
+    code: 'CSC314',
+  },
+  {
+    title: '	Computer Network',
+    credit: '3',
+    code: 'CSC315',
+  },
+  {
+    title: '	Real time application for Computer Systems',
+    credit: '3',
+    code: 'CSC316',
+  },
+  {
+    title: 'Java Practical',
+    credit: '1',
+    code: 'CSC317',
+  },
+  {
+    title: 'Numerical Methods Numerical Methods',
+    credit: '3',
+    code: 'MTH310',
+  },
+  {
+    title: 'Introduction to Entrepreneurial skills',
+    credit: '2',
+    code: 'ENT318',
+  },
+];
+
+export const elecThree = [
+  {
+    title: '	Statistical Analysis & Packages',
+    credit: '3',
+    code: 'CSC319',
+  },
+];
+
+export const thirdYearScnd = [
+  {
+    title: '6 MONTHS INDUSTRIAL WORK EXPERIENCE SCHEME (S.I.W.E.S.) ',
+    credit: '6',
+    code: 'CSC321',
+  },
+];
+
+export const finalYearFrst = [
+  {
+    title: 'Net-Centric Computing',
+    credit: '3',
+    code: 'CSC411',
+  },
+  {
+    title: 'Software Engineering',
+    credit: '3',
+    code: 'CSC412',
+  },
+  {
+    title: 'Advanced Data Base Management System',
+    credit: '3',
+    code: 'CSC413',
+  },
+  {
+    title: '	Systems Analysis and Design',
+    credit: '3',
+    code: 'CSC414',
+  },
+  {
+    title: '	Artificial Intelligence',
+    credit: '3',
+    code: 'CSC415',
+  },
+  {
+    title: '	Seminar',
+    credit: '2',
+    code: 'CSC416',
+  },
+  {
+    title: '	Human Computer Interaction',
+    credit: '2',
+    code: 'CSC417',
+  },
+  {
+    title: '	Distributed Computing',
+    credit: '2',
+    code: 'CSC418',
+  },
+  {
+    title: 'Principles of Operating System',
+    credit: '2',
+    code: 'CSC419',
+  },
+];
+
+export const finalYearScnd = [
+  {
+    title: 'Survey of Programming Languages',
+    credit: '3',
+    code: 'CSC421',
+  },
+  {
+    title: '	Legal Aspect of ICT',
+    credit: '3',
+    code: 'CSC424',
+  },
+  {
+    title: 'System Programming',
+    credit: '3',
+    code: 'CSC425',
+  },
+  {
+    title: '	Project Work',
+    credit: '6',
+    code: 'CSC426',
+  },
+  {
+    title: 'Formal Language and Automata theory',
+    credit: '2',
+    code: 'CSC427',
+  },
+  {
+    title: 'Data structure and Processing',
+    credit: '2',
+    code: 'CSC428',
+  },
+];
+
+export const elecFour = [
+  {
+    title: '	System Modeling and Simulation',
+    credit: '3',
+    code: 'CSC422',
+  },
+  {
+    title: 'Computer Graphics',
+    credit: '3',
+    code: 'CSC423',
+  },
+  {
+    title: 'Computer System Performance Evaluations',
+    credit: '3',
+    code: 'CSC429',
+  },
+];
