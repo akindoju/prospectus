@@ -6,6 +6,7 @@ import ElecTwoFrst from '../../components/Courses/ElecTwoFrst';
 import ElecTwoScnd from '../../components/Courses/ElecTwoScnd';
 import ScndYearFrst from '../../components/Courses/ScndYearFrst';
 import ScndYearScnd from '../../components/Courses/ScndYearScnd';
+import HomeBtn from '../../components/HomeBtn/HomeBtn';
 import {
   secondYearFrst,
   secondYearScnd,
@@ -18,6 +19,7 @@ import {
 const ScndYear = () => {
   return (
     <div className="levelContainer">
+      <HomeBtn />
       <header className="levelHeader">Second Year / 200Level</header>
 
       {/* first semester */}

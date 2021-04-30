@@ -3,10 +3,12 @@ import FrstYearFrst from '../../components/Courses/FrstYearFrst';
 import '../../components/Courses/Courses.css';
 import { firstYearFrst, firstYearScnd } from '../../coursesInformation';
 import FrstYearScnd from '../../components/Courses/FrstYearScnd';
+import HomeBtn from '../../components/HomeBtn/HomeBtn';
 
 const FrstYear = () => {
   return (
     <div className="levelContainer">
+      <HomeBtn />
       <header className="levelHeader">First Year / 100Level</header>
 
       {/* first semester */}

@@ -2,6 +2,7 @@ import React from 'react';
 import ElecFour from '../../components/Courses/ElecFour';
 import FnlYearFirst from '../../components/Courses/FnlYearFirst';
 import FnlYearScnd from '../../components/Courses/FnlYearScnd';
+import HomeBtn from '../../components/HomeBtn/HomeBtn';
 import {
   finalYearFrst,
   finalYearScnd,
@@ -11,6 +12,7 @@ import {
 const FnlYear = () => {
   return (
     <div className="levelContainer">
+      <HomeBtn />
       <header className="levelHeader">Final Year / 400Level</header>
 
       {/* first semester */}

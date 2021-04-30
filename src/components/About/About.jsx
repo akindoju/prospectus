@@ -5,9 +5,9 @@ const About = () => {
   return (
     <section className="section-about">
       <p className="paragraph">
-        This webpage was created simply to aid students, be it new or existing,
-        to have a rundown of all courses, first year to final year, and provide
-        them with the details about each course.
+        This webpage was created simply to aid Computer Science students, be it
+        new or existing, to have a rundown of all courses, first year to final
+        year, and provide them with the details about each course.
       </p>
 
       <p class="paragraph">

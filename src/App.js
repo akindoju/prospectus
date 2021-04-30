@@ -9,8 +9,8 @@ import ThrdYear from './pages/ThrdYear/ThrdYear';
 
 function App() {
   return (
-    <div className="App">
-      <Switch>
+    <Switch>
+      <div className="App">
         <Route path="/" exact>
           <Homepage />
         </Route>
@@ -23,11 +23,10 @@ function App() {
         <Route path="/third-year" exact>
           <ThrdYear />
         </Route>
-        <Route path="/final-year" exact>
-          <FnlYear />
-        </Route>
-      </Switch>
-    </div>
+        {/*Different way to render components*/}
+        <Route path="/final-year" exact component={FnlYear} />{' '}
+      </div>
+    </Switch>
   );
 }
 

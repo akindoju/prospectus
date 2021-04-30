@@ -7,10 +7,12 @@ import {
   elecThree,
 } from '../../coursesInformation';
 import ThrdYearScnd from '../../components/Courses/ThrdYearScnd';
+import HomeBtn from '../../components/HomeBtn/HomeBtn';
 
 const ThrdYear = () => {
   return (
     <div className="levelContainer">
+      <HomeBtn />
       <header className="levelHeader">Third Year / 300Level</header>
 
       {/* first semester */}
