@@ -2,11 +2,11 @@ import React from 'react';
 import './Courses.css';
 
 const FrstYearTwo = (props) => {
-  const { firstYearTwo } = props;
+  const { firstYearScnd } = props;
 
   return (
     <div className="courseContainer">
-      {firstYearTwo.map((course) => {
+      {firstYearScnd.map((course) => {
         return (
           <div className="courseCard">
             <div className="courseCard__side courseCard__side--front">
