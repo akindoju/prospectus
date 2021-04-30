@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router';
 import './App.css';
 import FnlYear from './pages/FnlYear/FnlYear';
-import FrstYear from './pages/FrstYear/FstYear';
+import FrstYear from './pages/FrstYear/FrstYear';
 import Homepage from './pages/Homepage/Homepage';
 import ScndYear from './pages/ScndYear/ScndYear';
 import ThrdYear from './pages/ThrdYear/ThrdYear';

@@ -1,9 +1,8 @@
 import React from 'react';
-import FrstSem from '../../components/Courses/FrstSem';
+import FrstYearFrst from '../../components/Courses/FrstYearFrst';
 import '../../components/Courses/Courses.css';
-import { firstYearOne } from '../../coursesInformation';
-import { firstYearTwo } from '../../coursesInformation';
-import ScndSem from '../../components/Courses/ScndSem';
+import { firstYearFrst, firstYearScnd } from '../../coursesInformation';
+import FrstYearScnd from '../../components/Courses/FrstYearScnd';
 
 const FrstYear = () => {
   return (
@@ -12,11 +11,11 @@ const FrstYear = () => {
 
       {/* first semester */}
       <h2 className="semesterHeader">First Semester</h2>
-      <FrstSem firstYearOne={firstYearOne} />
+      <FrstYearFrst firstYearFrst={firstYearFrst} />
 
       {/* second semester */}
       <h2 className="semesterHeader">Second Semester</h2>
-      <ScndSem firstYearTwo={firstYearTwo} />
+      <FrstYearScnd firstYearScnd={firstYearScnd} />
     </div>
   );
 };

@@ -1,12 +1,12 @@
 import React from 'react';
 import './Courses.css';
 
-const FrstSem = (props) => {
-  const { firstYearOne } = props;
+const FrstYearTwo = (props) => {
+  const { firstYearTwo } = props;
 
   return (
     <div className="courseContainer">
-      {firstYearOne.map((course) => {
+      {firstYearTwo.map((course) => {
         return (
           <div className="courseCard">
             <div className="courseCard__side courseCard__side--front">
@@ -28,4 +28,4 @@ const FrstSem = (props) => {
   );
 };
 
-export default FrstSem;
+export default FrstYearTwo;
