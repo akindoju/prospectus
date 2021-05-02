@@ -1,6 +1,7 @@
 import React from 'react';
-import { Switch, Route } from 'react-router';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
+import ScrollTop from './components/ScrollTop';
 import FnlYear from './pages/FnlYear/FnlYear';
 import FrstYear from './pages/FrstYear/FrstYear';
 import Homepage from './pages/Homepage/Homepage';
@@ -9,24 +10,25 @@ import ThrdYear from './pages/ThrdYear/ThrdYear';
 
 function App() {
   return (
-    <Switch>
-      <div className="App">
-        <Route path="/" exact>
-          <Homepage />
-        </Route>
-        <Route path="/first-year" exact>
-          <FrstYear />
-        </Route>
-        <Route path="/second-year" exact>
-          <ScndYear />
-        </Route>
-        <Route path="/third-year" exact>
-          <ThrdYear />
-        </Route>
-        {/*Different way to render components*/}
-        <Route path="/final-year" exact component={FnlYear} />{' '}
-      </div>
-    </Switch>
+    <div className="App">
+      <ScrollTop>
+        <Switch>
+          <Route path="/" exact>
+            <Homepage />
+          </Route>
+          <Route path="/first-year" exact>
+            <FrstYear />
+          </Route>
+          <Route path="/second-year" exact>
+            <ScndYear />
+          </Route>
+          {/*Different way to render components*/}
+          <Route path="/third-year" exact render={() => <ThrdYear />} />
+          {/*Different way to render components*/}
+          <Route path="/final-year" exact component={FnlYear} />
+        </Switch>
+      </ScrollTop>
+    </div>
   );
 }
 
