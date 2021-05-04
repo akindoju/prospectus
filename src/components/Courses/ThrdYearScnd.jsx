@@ -15,7 +15,7 @@ const ThrdYearScnd = (props) => {
                 <ul>
                   <li>
                     <span className="courseCode">{course.code}</span>
-                    {course.title}
+                    <span className="courseTitle">{course.title}</span>
                     <span className="courseCredit">{course.credit}Unit(s)</span>
                   </li>
                 </ul>

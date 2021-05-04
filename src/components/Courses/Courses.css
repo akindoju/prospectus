@@ -24,9 +24,6 @@
   border-radius: 0.4rem;
   overflow: hidden;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-}
-
-.courseCard__side--front {
   background-color: #fff;
 }
 
@@ -47,6 +44,11 @@
   width: 100%;
 }
 
+.courseTitle {
+  width: 50vw;
+  display: inline-block;
+}
+
 .courseCode {
   position: absolute;
   left: 2rem;
@@ -55,4 +57,18 @@
 .courseCredit {
   position: absolute;
   right: 2rem;
+}
+
+@media (max-width: 380px) {
+  .courseCard__side {
+    width: 80vw;
+  }
+
+  .courseCard__details {
+    font-size: 1.1rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }

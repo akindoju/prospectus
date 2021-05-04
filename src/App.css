@@ -89,3 +89,22 @@ body {
     padding: 2rem;
   }
 }
+
+@media (max-width: 380px) {
+  .levelHeader {
+    font-weight: 700;
+    font-size: 4rem;
+  }
+
+  .semesterHeader {
+    font-size: 3.5rem;
+    margin-top: 3rem;
+  }
+
+  .homeBtn {
+    font-size: 4rem;
+    position: absolute;
+    left: 28px;
+    top: 28px;
+  }
+}
