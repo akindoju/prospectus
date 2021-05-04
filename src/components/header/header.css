@@ -76,7 +76,7 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+@media (max-width: 380px) {
   .header {
     height: 60vh;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 100%);

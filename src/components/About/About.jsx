@@ -10,7 +10,7 @@ const About = () => {
         year, and provide them with the details about each course.
       </p>
 
-      <p class="paragraph">
+      <p className="paragraph">
         The four cards below represent each year of the Computer science
         programme. Each card contains first semester and second semester
         courses, and may also include compulsory courses for direct entry
