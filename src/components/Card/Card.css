@@ -142,4 +142,8 @@
     transform: translate(-50%, -10%);
     margin-bottom: 3rem;
   }
+
+  .card__heading {
+    width: 60%;
+  }
 }
