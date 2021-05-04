@@ -75,3 +75,24 @@
     transform: translate(0);
   }
 }
+
+@media screen and (max-width: 380px) {
+  .header {
+    height: 60vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 100%);
+  }
+
+  .header__text-box {
+    top: 50%;
+  }
+
+  .heading-primary--main {
+    font-size: 5rem;
+  }
+
+  .heading-primary--sub {
+    font-size: 1.5rem;
+    display: inline-block;
+  }
+}

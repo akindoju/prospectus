@@ -1,7 +1,7 @@
 .courseCard {
   height: 8rem;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
   transition: all 0.4s;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .courseCard:first-child {
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 .courseCard__side {
@@ -21,7 +21,7 @@
   width: 80%;
   height: 8rem;
   transition: all 0.4s;
-  border-radius: 4px;
+  border-radius: 0.4rem;
   overflow: hidden;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 }
@@ -37,22 +37,22 @@
   background-blend-mode: screen;
   -webkit-clip-path: polygon(0 0, 0 80%, 100% 0);
   clip-path: polygon(0 0, 0 80%, 100% 0);
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
 }
 
 .courseCard__details {
   text-align: center;
-  font-size: 18px;
+  font-size: 1.8rem;
   width: 100%;
 }
 
 .courseCode {
   position: absolute;
-  left: 20px;
+  left: 2rem;
 }
 
 .courseCredit {
   position: absolute;
-  right: 20px;
+  right: 2rem;
 }
