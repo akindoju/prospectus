@@ -5,6 +5,7 @@ import {
   finalYearScnd,
   elecFour,
 } from '../../coursesInformation';
+import Courses from '../../components/Courses/Courses';
 
 const FnlYear = () => {
   return (
@@ -14,77 +15,14 @@ const FnlYear = () => {
 
       {/* first semester */}
       <h2 className="semesterHeader">First Semester</h2>
-      <div className="courseContainer">
-        {finalYearFrst.map((course) => {
-          return (
-            <div className="courseCard">
-              <div className="courseCard__side courseCard__side--front">
-                <div className="courseCard__picture">&nbsp;</div>
-                <div className="courseCard__details">
-                  <ul>
-                    <li>
-                      <span className="courseCode">{course.code}</span>
-                      {course.title}
-                      <span className="courseCredit">
-                        {course.credit}Unit(s)
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
+      <Courses courses={finalYearFrst} />
       {/* Electives */}
       <h2 className="semesterHeader">Electives</h2>
-      <div className="courseContainer">
-        {elecFour.map((course) => {
-          return (
-            <div className="courseCard">
-              <div className="courseCard__side courseCard__side--front">
-                <div className="courseCard__picture">&nbsp;</div>
-                <div className="courseCard__details">
-                  <ul>
-                    <li>
-                      <span className="courseCode">{course.code}</span>
-                      {course.title}
-                      <span className="courseCredit">
-                        {course.credit}Unit(s)
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
+      <Courses courses={elecFour} />
 
       {/* second semester */}
       <h2 className="semesterHeader">Second Semester</h2>
-      <div className="courseContainer">
-        {finalYearScnd.map((course) => {
-          return (
-            <div className="courseCard">
-              <div className="courseCard__side courseCard__side--front">
-                <div className="courseCard__picture">&nbsp;</div>
-                <div className="courseCard__details">
-                  <ul>
-                    <li>
-                      <span className="courseCode">{course.code}</span>
-                      {course.title}
-                      <span className="courseCredit">
-                        {course.credit}Unit(s)
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
+      <Courses courses={finalYearScnd} />
     </div>
   );
 };

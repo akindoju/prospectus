@@ -5,6 +5,7 @@ import {
   elecThree,
 } from '../../coursesInformation';
 import HomeBtn from '../../components/HomeBtn/HomeBtn';
+import Courses from '../../components/Courses/Courses';
 
 const ThrdYear = () => {
   return (
@@ -14,77 +15,15 @@ const ThrdYear = () => {
 
       {/* first semester */}
       <h2 className="semesterHeader">First Semester</h2>
-      <div className="courseContainer">
-        {thirdYearFrst.map((course) => {
-          return (
-            <div className="courseCard">
-              <div className="courseCard__side courseCard__side--front">
-                <div className="courseCard__picture">&nbsp;</div>
-                <div className="courseCard__details">
-                  <ul>
-                    <li>
-                      <span className="courseCode">{course.code}</span>
-                      {course.title}
-                      <span className="courseCredit">
-                        {course.credit}Unit(s)
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
+      <Courses courses={thirdYearFrst} />
+
       {/* Electives */}
       <h2 className="semesterHeader">Electives</h2>
-      <div className="courseContainer">
-        {elecThree.map((course) => {
-          return (
-            <div className="courseCard">
-              <div className="courseCard__side courseCard__side--front">
-                <div className="courseCard__picture">&nbsp;</div>
-                <div className="courseCard__details">
-                  <ul>
-                    <li>
-                      <span className="courseCode">{course.code}</span>
-                      {course.title}
-                      <span className="courseCredit">
-                        {course.credit}Unit(s)
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
+      <Courses courses={elecThree} />
 
       {/* second semester */}
       <h2 className="semesterHeader">Second Semester</h2>
-      <div className="courseContainer">
-        {thirdYearScnd.map((course) => {
-          return (
-            <div className="courseCard">
-              <div className="courseCard__side courseCard__side--front">
-                <div className="courseCard__picture">&nbsp;</div>
-                <div className="courseCard__details">
-                  <ul>
-                    <li>
-                      <span className="courseCode">{course.code}</span>
-                      {course.title}
-                      <span className="courseCredit">
-                        {course.credit}Unit(s)
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
+      <Courses courses={thirdYearScnd} />
     </div>
   );
 };
