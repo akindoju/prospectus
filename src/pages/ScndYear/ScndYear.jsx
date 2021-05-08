@@ -1,11 +1,4 @@
 import React from 'react';
-import '../../components/Courses/Courses.css';
-import DirEntrTwoFrst from '../../components/Courses/DirEntrTwoFrst';
-import DirEntrTwoScnd from '../../components/Courses/DirEntrTwoScnd';
-import ElecTwoFrst from '../../components/Courses/ElecTwoFrst';
-import ElecTwoScnd from '../../components/Courses/ElecTwoScnd';
-import ScndYearFrst from '../../components/Courses/ScndYearFrst';
-import ScndYearScnd from '../../components/Courses/ScndYearScnd';
 import HomeBtn from '../../components/HomeBtn/HomeBtn';
 import {
   secondYearFrst,
@@ -24,23 +17,149 @@ const ScndYear = () => {
 
       {/* first semester */}
       <h2 className="semesterHeader">First Semester</h2>
-      <ScndYearFrst secondYearFrst={secondYearFrst} />
+      <div className="courseContainer">
+        {secondYearFrst.map((course) => {
+          return (
+            <div className="courseCard">
+              <div className="courseCard__side courseCard__side--front">
+                <div className="courseCard__picture">&nbsp;</div>
+                <div className="courseCard__details">
+                  <ul>
+                    <li>
+                      <span className="courseCode">{course.code}</span>
+                      {course.title}
+                      <span className="courseCredit">
+                        {course.credit}Unit(s)
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
       {/* Direct Entry */}
       <h2 className="semesterHeader">Compulsory for Direct Entry</h2>
-      <DirEntrTwoFrst dirEntrTwoFrst={dirEntrTwoFrst} />
+      <div className="courseContainer">
+        {dirEntrTwoFrst.map((course) => {
+          return (
+            <div className="courseCard">
+              <div className="courseCard__side courseCard__side--front">
+                <div className="courseCard__picture">&nbsp;</div>
+                <div className="courseCard__details">
+                  <ul>
+                    <li>
+                      <span className="courseCode">{course.code}</span>
+                      {course.title}
+                      <span className="courseCredit">
+                        {course.credit}Unit(s)
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
       {/* Electives */}
       <h2 className="semesterHeader">Electives</h2>
-      <ElecTwoFrst elecTwoFrst={elecTwoFrst} />
+      <div className="courseContainer">
+        {elecTwoFrst.map((course) => {
+          return (
+            <div className="courseCard">
+              <div className="courseCard__side courseCard__side--front">
+                <div className="courseCard__picture">&nbsp;</div>
+                <div className="courseCard__details">
+                  <ul>
+                    <li>
+                      <span className="courseCode">{course.code}</span>
+                      {course.title}
+                      <span className="courseCredit">
+                        {course.credit}Unit(s)
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
 
       {/* second semester */}
       <h2 className="semesterHeader">Second Semester</h2>
-      <ScndYearScnd secondYearScnd={secondYearScnd} />
+      <div className="courseContainer">
+        {secondYearScnd.map((course) => {
+          return (
+            <div className="courseCard">
+              <div className="courseCard__side courseCard__side--front">
+                <div className="courseCard__picture">&nbsp;</div>
+                <div className="courseCard__details">
+                  <ul>
+                    <li>
+                      <span className="courseCode">{course.code}</span>
+                      {course.title}
+                      <span className="courseCredit">
+                        {course.credit}Unit(s)
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
       {/* Direct Entry */}
       <h2 className="semesterHeader">Compulsory for Direct Entry</h2>
-      <DirEntrTwoScnd dirEntrTwoScnd={dirEntrTwoScnd} />
+      <div className="courseContainer">
+        {dirEntrTwoScnd.map((course) => {
+          return (
+            <div className="courseCard">
+              <div className="courseCard__side courseCard__side--front">
+                <div className="courseCard__picture">&nbsp;</div>
+                <div className="courseCard__details">
+                  <ul>
+                    <li>
+                      <span className="courseCode">{course.code}</span>
+                      {course.title}
+                      <span className="courseCredit">
+                        {course.credit}Unit(s)
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
       {/* Electives */}
       <h2 className="semesterHeader">Electives</h2>
-      <ElecTwoScnd elecTwoScnd={elecTwoScnd} />
+      <div className="courseContainer">
+        {elecTwoScnd.map((course) => {
+          return (
+            <div className="courseCard">
+              <div className="courseCard__side courseCard__side--front">
+                <div className="courseCard__picture">&nbsp;</div>
+                <div className="courseCard__details">
+                  <ul>
+                    <li>
+                      <span className="courseCode">{course.code}</span>
+                      {course.title}
+                      <span className="courseCredit">
+                        {course.credit}Unit(s)
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
